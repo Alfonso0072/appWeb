@@ -1,0 +1,45 @@
+.items{
+    list-style-type: none;
+    height: 2rem;
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    width: max-content;
+    height: max-content;
+}
+
+#links{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.nav{
+    justify-items: left;
+    align-items: end;
+    height: 6rem;
+    padding: 0%;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    margin: 0%;
+}
+
+main{
+    padding: 0%;
+    width: 100%;
+    left: 0;
+    margin: 0%;
+}
+video{
+    pointer-events: none;
+    margin-top: 5rem;
+    width: 100%;
+    left: 0;
+}
+
