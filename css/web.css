@@ -31,7 +31,7 @@ header {
 }
 #logo{
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 400px;
     width: 4rem;
     height: 4rem;
 }
@@ -131,4 +131,41 @@ button {
     justify-content: space-between;
     width: 5.5rem;
     height: 4rem;
+}
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
 }
