@@ -2,20 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100%; 
 }
 footer {
     background-color: #000;
     color: #fff;
     text-align: center;
     padding: 10px;
-    margin-bottom: auto;
 }
 footer img {
     width: 20px;
     height: 20px;
     margin-left: 5px;
-    vertical-align: middle;
 }
 header {
     background-color: #000;
@@ -80,7 +77,7 @@ video{
     left: 0;
 }
 
-.formulario {
+.form {
     max-width: 600px;
     margin: 0 auto;
 }
@@ -90,7 +87,7 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="text"], input[type="email"], textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -98,23 +95,22 @@ input[type="text"], input[type="email"], textarea {
     border-radius: 5px;
 }
 
-button[type="submit"] {
+button {
     background-color: #000;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
-.mensaje{
+.message{
     margin-top: 100px;
     margin-bottom: 4rem;
 }
-.product-list {
+.product_list {
     margin: 0 auto;
-    display: flex;
+    display: inline-flex;
 }
 .product {
-    border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -125,4 +121,14 @@ button[type="submit"] {
 }
 .product:hover {
     transform: scale(1.1); 
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.footer_img{
+    display: inline-flex;
+}
+.logos_footer{
+    justify-content: space-between;
+    width: 5.5rem;
+    height: 4rem;
 }
